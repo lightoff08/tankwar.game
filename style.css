@@ -1,100 +1,123 @@
+/* style.css */
 body {
-    font-family: Arial, sans-serif; /* Font settings */
-    display: flex; /* Use flex layout */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    min-height: 100vh; /* Full viewport height */
-    margin: 0; /* Remove default margin */
-    background-color: #1a1a1a; /* Background color */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a;
 }
 
 .container {
-    text-align: center; /* Center text */
-    padding: 2rem; /* Padding */
-    background-color: #2a2a2a; /* Container background color */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 20px rgba(0,0,0,0.3); /* Box shadow */
-    max-width: 600px; /* Maximum width */
-    margin: 20px; /* Margin */
+    text-align: center;
+    padding: 2rem;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    max-width: 600px;
+    margin: 20px;
 }
 
-/* Header styles */
 h1 {
-    color: #fff; /* Text color */
-    margin-bottom: 1.5rem; /* Margin bottom */
+    color: #fff;
+    margin-bottom: 1.5rem;
 }
 
-/* Introduction styles */
 .introduction {
-    color: #ccc; /* Text color */
-    margin: 20px 0; /* Margin */
-    text-align: left; /* Left align text */
-    padding: 20px; /* Padding */
-    background-color: #333; /* Background color */
-    border-radius: 8px; /* Rounded corners */
+    color: #ccc;
+    margin: 20px 0;
+    text-align: left;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
 }
 
 .introduction h2 {
-    color: #e74c3c; /* Subtitle color */
-    margin-top: 0; /* Remove top margin */
+    color: #e74c3c;
+    margin-top: 0;
 }
 
-/* Game image styles */
+/* Controls tutorial styles */
+.controls {
+    color: #ccc;
+    margin: 20px 0;
+    text-align: left;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+.controls h2 {
+    color: #e74c3c;
+    margin-top: 0;
+}
+
+.controls li {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.controls strong {
+    color: #fff;
+    background-color: #404040;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
 .game-image {
-    max-width: 100%; /* Maximum width equals container width */
-    height: auto; /* Auto height */
-    margin-bottom: 20px; /* Margin bottom */
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 }
 
-/* Download button styles */
 .download-btn {
-    display: inline-block; /* Inline-block element */
-    padding: 15px 40px; /* Padding */
-    background-color: #e74c3c; /* Background color */
-    color: white; /* Text color */
-    text-decoration: none; /* Remove text decoration */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 1.2em; /* Font size */
-    transition: transform 0.3s, background-color 0.3s; /* Transition effects */
-    margin: 15px 0; /* Margin */
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: transform 0.3s, background-color 0.3s;
+    margin: 15px 0;
 }
 
 .download-btn:hover {
-    background-color: #c0392b; /* Hover background color */
-    transform: scale(1.05); /* Hover scale effect */
+    background-color: #c0392b;
+    transform: scale(1.05);
 }
 
-/* Requirements section styles */
 .requirements {
-    color: #ccc; /* Text color */
-    margin: 25px 0; /* Margin */
-    text-align: left; /* Left align text */
-    padding: 20px; /* Padding */
-    background-color: #333; /* Background color */
-    border-radius: 8px; /* Rounded corners */
+    color: #ccc;
+    margin: 25px 0;
+    text-align: left;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
 }
 
 .requirements h2 {
-    color: #e74c3c; /* Subtitle color */
-    margin-top: 0; /* Remove top margin */
+    color: #e74c3c;
+    margin-top: 0;
 }
 
 code {
-    background-color: #404040; /* Code background color */
-    padding: 2px 5px; /* Padding */
-    border-radius: 3px; /* Rounded corners */
-    font-family: monospace; /* Monospace font */
+    background-color: #404040;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: monospace;
 }
 
 .instructions {
-    color: #ccc; /* Text color */
-    margin-top: 1rem; /* Margin top */
-    font-size: 0.9em; /* Font size */
+    color: #ccc;
+    margin-top: 1rem;
+    font-size: 0.9em;
 }
 
-/* Copyright styles */
-copyright, .copyright {
-    color: #888; /* Text color */
-    font-size: 0.8em; /* Font size */
-    margin-top: 20px; /* Margin top */
+.copyright {
+    color: #888;
+    font-size: 0.8em;
+    margin-top: 20px;
 }
